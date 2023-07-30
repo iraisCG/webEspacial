@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Espacio Exterior</title>
+        <!--CONECTAR CSS CON HTML-->
+        <link rel="stylesheet" href="/style.css">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="/imagenes/cohete.png">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- Iconos de Bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+        <!--CONECTAR GOOGLE FONTS-->
+        <!--TITULOS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <!--TEXTO--PARRÁFOS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+
+    </head>
+
+    <!--BODY -- LO QUE VE EL USUARIO-->
+    <body>
+        <!--HEADER -- ENCABEZADO CONTIENE ELEMENTOS-->
+        <header>
+            <!--NAV APORTA NAVEGACIÓN EN LA PÁGINA-->
+            <nav>
+                <!--UL LISTA NO ORDENADA PARA EL MENÚ-->
+                <ul class="nav-menu">
+                    <!--iNICIO-->
+                    <li>
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <!--ESTRELLAS-->
+                    <li>
+                        <a href="#estrellas">Estrellas</a>
+                    </li>
+                    <!--PLANETAS-->
+                    <li>
+                        <a href="#planetas">Planetas</a>
+                    </li>
+                    <!--SATELITES-->
+                    <li>
+                        <a href="#satelites">Satelites</a>
+                    </li>
+                    <!--Preguntas-->
+                    <li>
+                        <a href="#preguntas">Preguntas</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            
+
+            <!--SECCIÓN INCIO -->
+            <section>
+                <div class="imagen-inicio">
+                    <!--IMAGEN ILUSTRACIÓN DE INICIO - astronauta-->
+                    <img src="/imagenes/ASTRONAUTA.png" alt="astronauta">
+                </div>
+                <div class="mensaje-bienvenida">
+                    <div class="texto">
+                        <h1 id="inicio">Bienvenidxs</h1>
+                    <br>
+                    <p>Este es un lugar en el que podrás conocer más sobre los misterios que  hay en el espacio exterior</p>
+                    </div>
+                </div>
+
+                <!--BOTONES DE INICIO DE TEMA-->
+                <div class="inicio-menu">
+                    <ul class="lista-menu">
+
+                            <li>
+                                <img src="/imagenes/estrellas.png" alt="estrellas">
+                                <button>
+                                    <a href="#estrellas">Estrellas</a>
+                                </button>
+                            </li>
+                            <li>
+                                <img src="/imagenes/planetas.png" alt="planetas">
+                               <button>
+                                <a href="#planetas">Planetas</a>
+                               </button>
+                                
+                            </li>
+                            <li>
+                                <img src="/imagenes/satelites.png" alt="satelites">
+                                <button>
+                                    <a href="#satelites">Satelites</a>
+                                </button>
+                            </li>
+                        
+                        
+                    </ul>
+                </div>
+
+            </section>
+
+            <!--SECCIÓN DIVISIÓN - COHETE
+            <section>
+                <div>
+                    <img src="imagenes/" alt="">
+                </div>
+            </section> -->
+
+
+            <!--SECCIÓN SOBRE ESTRELLAS-->
+            <section>
+                <div class="estrellas-contenido">
+                    <h2 id="estrellas">Estrellas</h2>
+
+                    <h4>¿Qué son?</h4>
+
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam dolorem veritatis sed explicabo! Quam cupiditate maxime nostrum odio consequuntur molestiae obcaecati voluptates sunt qui. Nesciunt ex quisquam distinctio deserunt animi.</p>
+
+                </div>
+
+                <div class="imagen-estrellas">
+                    <img src="imagenes/estrellas.png" alt="estrellas">
+                </div>
+
+            
+            </section>
+
+            <!--CARRUSEL DE ESTRELLAS------------------------------------------>
+            <section class="galeria">
+
+                <!--CARRUSEL SOBRE LAS DIFERENTES ESTRELLAS-->
+
+
+                <div id="imagen-elemento" class="carousel   slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+
+                        <!--PRIMER EJEMPLO DE ESTRELLAS-------------->
+                        <div class="carousel-item active">
+
+                            <div class="container">
+
+                              <img class="ejemplo-elemento " src="imagenes/estrellas1.jpg" alt="curiosidad 1">
+
+                              <p class="texto-elemento">Las estrellass Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil voluptate facilis placeat? Culpa tenetur ad voluptatibus. Rerum, soluta modi fugiat repellendus tenetur accusantium in? Cupiditate quisquam fugiat aspernatur magni dolor.</p>
+
+                              <div class="info-elemento">
+                                <p class="nombre-elemento">Nombre de estrella</p>
+                              </div>
+                            </div>
+                        </div>
+
+                        <!--SEGUNDO EJEMPLO DE ESTRELLAS-->
+                        <div class="carousel-item">
+
+                            <div class="container">
+
+                              <img class="ejemplo-elemento " src="imagenes/disenoPortafolio.png" alt="proyecto editorial">
+
+                              <p class="texto-elemento">Elaboración de un libro de artista</p>
+
+                              <div class="info-elemento">
+                                <p class="nombre-elemento">Diseño editorial</p>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <!--TERCER EJEMPLO DE ESTRELLAS-->
+                        <div class="carousel-item">
+
+                            <div class="container">
+
+                              <img class="ejemplo-elemento " src="imagenes/disenoPortafolio.png" alt="proyecto editorial">
+                            
+                              <p class="texto-elemento">Elaboración de un libro de artista</p>
+
+                              <div class="info-elemento">
+                                <p class="nombre-elemento">Diseño editorial</p>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!--CONTROLADORES DEL CARRUSEL-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#imagen-elemento" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                       </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#imagen-elemento" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                      </button>
+
+                </div>
+
+            </section>
+
+
+
+            <!--SECCIÓN SEPARACIÓN DE TEMAS-->
+            <section>
+                <div>
+                    <img src="imagenes/" alt="">
+                </div>
+            </section>
+
+
+            <!--SECCIÓN SOBRE SATELITES-->
+            <section>
+                <div id="satelites">
+
+                </div>
+            </section>
+
+
+
+            <!--SECCIÓN PREGUNTAS / FORMULARIO-->
+            <section>
+                <div id="preguntas">
+
+                </div>
+            </section>
+
+
+        </main>
+
+
+
+        
+    </body>
+</html>

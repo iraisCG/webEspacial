@@ -1,0 +1,267 @@
+body{
+    /*Mqrgen predenterminado*/
+    margin: 0%;
+    /*Margen pa' dentro*/
+    padding: 0%;
+    width: 100%;
+    height: auto;
+    background-color:#431253;
+}
+
+main{
+    background-color: #431253;
+    width: 100%;
+    height: auto;
+}
+
+p{
+    color: #431253;
+}
+
+
+/*Navegacion*/
+
+header{
+    
+    width: 100%;
+    height: 50px;
+    background-color: blueviolet;
+    position: sticky;
+    top: 2px;
+    
+}
+
+header nav{
+    
+    /*DISPLAY mover elemneto de diferentes formas*/
+    display: flex;
+    justify-content: center;
+    background-color:#431253;
+  
+
+}
+
+header nav .nav-menu{
+    background-color: #431253;
+    /**Eliminar viñetas*/
+    list-style:none;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin: 15px; 
+    justify-content: center;
+    align-items: center;
+    
+    /*Altura*/
+}
+
+nav .nav-menu a{
+   
+    /*  QUITAR EL SUBRAYADO*/
+    text-decoration: none;
+    /*DAR ESPACIAADO ENTRE CADA PALABRA DEL MENÚ*/
+    margin: 40px;
+    color: #fdfade;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+
+    
+}
+nav .nav-menu a:hover{
+    color: #ed7447;
+}
+/*PÁGINA INICIO*/
+
+.imagen-inicio{
+    background-color: #fdfade;
+    padding-top: 50px;
+    width: 50%;
+    height: 600px;
+    float: left;
+    display: flex;
+    justify-content: right;
+}
+
+.imagen-inicio img{
+
+   
+    width: 450px;
+    height: 450px;
+    
+}
+
+
+.mensaje-bienvenida{
+    background-color:#fdfade;
+    float: right;
+    text-align: left;
+    width: 50%;
+    height: 600px;
+    padding-top: 200px;
+    /*CENTRAR DIV*/
+   margin: auto;
+}
+
+.mensaje-bienvenida .texto{
+    color: #431253;
+    width: 70%;
+}
+
+.mensaje-bienvenida h1{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 80pt;
+}
+
+/***************MENÚ INICIO*****************/
+
+.inicio-menu{
+    background-color: #431253;
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+    float: left;
+    
+
+}
+
+.inicio-menu .lista-menu {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+    /*Altura*/
+}
+
+.inicio-menu .lista-menu img{
+    
+    width: 90%;
+
+
+}
+
+.inicio-menu .lista-menu li{
+    text-align: center;
+    
+}
+
+
+.lista-menu a{
+
+    text-decoration: none;
+    margin: 30px;
+    color: #fdfade;
+
+}
+.lista-menu button{
+    width: 40%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 20px ;
+    border: none;
+    background-color: #ed7447;
+}
+
+button:hover{
+    background-color: #431253; 
+    color: #fdfade;
+}
+
+
+
+/*+**********ESTRELLAS*************/
+
+.estrellas-contenido{
+    background-color: #fdfade;
+    width: 50%;
+    height: 500px;
+    float: left;
+    padding: 80px;
+
+}
+
+.estrellas-contenido h2{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 70pt;
+    color: #ed7447;
+}
+
+.estrellas-contenido h4{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30pt;
+    color: #ed7447;
+}
+
+.imagen-estrellas{
+    background-color: #fdfade;
+    width: 50%;
+    height: 500px;
+    float: right;
+}
+
+.imagen-estrellas img{
+    width: 80%;
+    height: auto;
+
+}
+
+
+/******CARRUSEL********************************/
+
+.galeria{
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    float: right; /*PROBLEMA PARA MENU EN MOVIMIENTO*/
+    
+    background-color: #431253;
+}
+
+.galeria .carouse{
+    max-width: 500px;
+}
+
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ejemplo-elemento{
+    height: 390px;
+    width: 390px;
+    margin: 10px 100px 10px 100px;
+}
+
+.texto-elemento{
+    max-width: 100%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.info-elemento{
+    font-weight: bold;
+  text-align: center;
+}
+
+
+.info-elemento .nombre-elemento p{
+    margin-bottom: 0;
+    color: #fdfade;
+}
+
+.info-elemento .nombre-elemento{
+    font-size: 0.9rem;
+    color: #fdfade;
+
+}
